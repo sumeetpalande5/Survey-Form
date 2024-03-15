@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-image: url(https://wallpapercave.com/wp/wp2704825.jpg); /* Background image */
+    height: 100%;
+    background-position: center;/* Background position set to center */
+    background-repeat: no-repeat;
+    background-size: cover; /* Background size set to cover */
+}
+
+.header{ /* This is the text that is displayed above the form */
+    align-items: center;
+    text-align: center;
+    padding-top: 35px; /* Top padding */
+    padding-bottom: 20px; /* bottom padding */
+    color: white; /* Color to the text is white */
+}
+
+.header h1{
+    font-size: 50px;
+}
+
+.header p{
+    font-size: 30px;
+    font-family: system-ui;
+    font-weight: 100;
+}
+
+.formContainer{
+    width: 800px;
+    height: 1700px;
+    position:relative;
+    background: rgba(22, 22, 22, 0.5); /* Background color is the shade of black and opacity is 0.5 */
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.formContainer .form{
+    color: white;
+    padding: 30px;
+}
+
+.formContainer .form input{
+    width: 720px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+::placeholder{
+    padding-left: 20px; /* left padding is given to the placeholders */
+    font-size: 20px; /* Font size is set to 20px */
+}
+
+.formContainer .form label{
+    font-size: 25px; /* Labels size */
+    font-family: sans-serif; /* Labels font family */
+}
+
+.formContainer .form select{
+    width: 720px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.formContainer .form option{
+    font-size: 20px; /* The options will be having the font size of 20px */
+}
+
+
